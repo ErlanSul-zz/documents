@@ -1,0 +1,15 @@
+export enum DRIVING_LICENCE_CATEGORIES {
+  А = 'A',
+  А1 = 'А1',
+  B = 'B',
+  B1 = 'B1',
+  C = 'C',
+  C1 = 'C1',
+  D = 'D',
+  D1 = 'D1',
+  BE = 'BE',
+  CE = 'CE',
+  DE = 'DE',
+  C1E = 'C1E',
+  D1E = 'D1E',
+}
