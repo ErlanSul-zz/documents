@@ -38,7 +38,7 @@ export class UsersService {
     const userModel = await this.usersRepository.findOneBy({
       id: updateUsersDto.id,
     });
-    if (userModel === undefined) {
+    if (userModel === null) {
       throw new HttpException('User not found', HttpStatus.NOT_FOUND);
     }
 
